@@ -1,5 +1,5 @@
 <?php
-require('../connection.php');
+require('/connection.php');
 session_start();
 if (isset($_SESSION['admin'])) {
     header('location: homepage.php');
